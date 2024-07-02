@@ -23,7 +23,7 @@ const App = () => {
   }
 
   useEffect(() => {
-    getMemes("http://localhost:8080/");
+    getMemes("https://meme-genrator-server.vercel.app/");
     window.addEventListener("scroll", toggleVisible);
   }, []);
 

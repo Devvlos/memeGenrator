@@ -24,7 +24,7 @@ const MemeTemplates = ({ allMemes, setMeme }) => {
 
   return (
     <Wrapper>
-      <h1>Pick Your Meme Template</h1>
+      <h1>Pick Your Meme</h1>
       <Content>{memes}</Content>
     </Wrapper>
   );
