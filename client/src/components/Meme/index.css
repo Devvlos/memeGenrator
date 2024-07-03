@@ -16,3 +16,9 @@ button {
 #divv {
   margin-top: 5%;
 }
+#btn {
+  transition: 0.2s ease-in-out;
+}
+#btn:hover {
+  scale: 1.06;
+}
