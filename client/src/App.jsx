@@ -33,7 +33,7 @@ const App = () => {
 
   useEffect(() => {
     localStorage.setItem("MEME", JSON.stringify(meme));
-    document.title = meme ? `Meme Master - ${meme.name}` : "Meme Master";
+    document.title = meme ? `Meme Maker - ${meme.name}` : "Meme Maker";
   }, [meme]);
 
   const getMemes = async (url) => {
